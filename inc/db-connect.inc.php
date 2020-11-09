@@ -7,11 +7,7 @@ function debug ($value)
     echo "</pre>";
 };
 
-// var de connexion à la db
-$host = 'localhost';
-$dbname = 'users';
-$username = 'root';
-$password = '';
+require_once 'env.php';
 
 // connexion à la db
 try {
